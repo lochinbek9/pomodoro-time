@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
     <title>Pomodoro Timer</title>
 </head>
 <body>
-    <h1>Pomodoro Timer</h1>
-    <div id="container">
-       
+    <div id="container" style="margin-top: 100px;">
+    <h1 class="title">Pomodoro Timer</h1>
         <!--Work Timer-->
         <div class="couters-box">
             <div>
@@ -51,7 +51,7 @@
           
                   <!--Break Timer-->
                   <div id="break-timer" class="timer">
-                    <ul style="display: flex; display: flex;">
+                    <ul style="display: flex;">
                       <li>
                           <p id="b_minutes">05</p>
                         
@@ -68,6 +68,9 @@
             </div>
 
               <div class="btn-box">
+                <div class="line">
+                    <div class="line-desc"></div>
+                </div>
                 <ul class="btn-list">
                     <li>
                         <button id="start" class="btn">Start</button>
@@ -78,14 +81,30 @@
             
                     </li>
                     <li>
-                        
                         <button id="stop" class="btn">Pause</button>
                     </li>
                    </ul>
                </div>
         </div>
-       
     </div>
-    <script src="main.js"></script>
+
+    <form class="form">
+        <h1>TODO</h1>
+        <div class="form-box">
+        <input type="text" name="formInput" required class="form-input" placeholder="Bugun nima qilamiz!" />
+            <select name="todoSelect" id="todoSelect">
+            <option value="daily">Daily</option>
+            <option value="weekly">Weekly</option>
+            <option value="monthly">Monthly</option>
+            <option value="yearly">Yearly</option>
+          </select>
+          <button>Add task</button>
+        </div>
+        <ul class="todo-list">
+
+        </ul>
+      </form>
+   
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>

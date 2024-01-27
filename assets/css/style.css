@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cutewallpaper.org/21/google-maps-wallpapers/World-Map-Desktop-Wallpaper-Elegant-Best-World-Map-3d-Map-.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+h1 {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+#container {    
+    position: relative;
+    width: 700px;
+    height: 400px;
+    backdrop-filter: blur(15px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    transform: translate(-50% -50%);
+    border: 10px inset #fff;
+    z-index: 5;
+    
+}
+
+.title{
+    color: #fff;
+}
+
+.couters-box{
+    width: 600px; 
+    display: flex; 
+    justify-content: space-around; 
+    flex-direction: column; 
+    height: 400px; 
+    align-items: center;
+}
+
+.pomodoro__work__box{
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 600px; 
+}
+
+.general-box{
+    display: flex; 
+    justify-content: center;
+}
+
+/*timers*/
+.label {
+    align-self: center;
+    justify-self: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.timer {
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.8px;
+}
+
+.circle-timer{
+    margin: 0 130px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.btn-list{
+    width: 600px; 
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.line{
+    margin-bottom: 40px;
+    border: 2px solid #fff;
+}
+.line-desc{
+    width: 2px;
+    height: 8px;
+    background-color: #17e0ff;
+}
+
+.btn-box button{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 20px;
+    color: #fff;
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+
+
+.form{
+    margin: 20px 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 30px;
+    width: 700px;
+    height: 300px;
+    border: 5px inset #ffffff;
+    border-radius: 5px;
+}
+
+.form input{
+    width: 400px;
+    height: 60px;
+    background-color: #fff;
+    border: 4px solid #1a7684;
+    outline: none;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.form select{
+    padding: 0 10px;
+    width: 120px;   
+    height: 60px;
+    background-color: #fff;
+    border: 4px solid #1a7684;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.form ul{
+    width: 400px;
+}
+
+.form ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.form button{
+    padding: 0 10px;
+    width: 120px;   
+    height: 60px;
+    background-color: #fff;
+    border: 4px solid #1a7684;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
